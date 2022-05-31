@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Ośrodek wypoczynkowy Gustaw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="all">
+        <div class="header">
+                <h3>HOTEL GUSTAW</h3>
+        </div>
+        <Nav>
+            <ul class="active">
+                <li><a href="Onas.html">O NAS</a></li>
+                <li><a href="Restauracja.html">RESTAURACJA</a></li>
+                <li><a href="../Index.html">STRONA GŁÓWNA</a></li>
+                <li><a href="Pokoje.html">POKOJE</a></li>
+                <li><a href="Cennik.html">CENNIK</a></li>
+                <li><a href="Kontakt.html">KONTAKT</a></li>
+            </ul>
+
+            <button class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+
+        </Nav>   
+        <div class="main1">
+            <h3 class="h3">NASZE POKOJE</h3>
+            <p class="h5">PEŁNA WYGODA W DOBREJ CENIE!</p>
+            <p class="onastxt">
+                Każdy z 29 pokoi zaprojektowany jest tak, by zapewnić Gościom najwyższy komfort użytkowania oraz dostęp do najnowszych technologii 
+                (m.in. bezpłatny dostęp do internetu, szereg udogodnień multimedialnych, elastyczna oferta dostosowana do oczekiwań i potrzeb Gości).
+                Nasz hotel oddaje do dyspozycji gości w sumie 29 pokoi dla 70 osób.
+                <br>
+                <br>
+                <br>
+                <br>
+            <img src="../Img/pok1.jpg" width="500px" height="300px" alt="2" class="resimg">
+            <img src="../Img/pok2.jpg" width="500px" height="300px" alt="2" class="resimg">
+            </p>
+        </div>
+        <div class="footer">
+            <br>
+            autor: Alex Morawski 1P1
+            <br>
+        </div>
+    </div>
+    <script>
+        const mobileNav = document.querySelector('ul');
+        const burgerIcon = document.querySelector('.burger');
+
+        burgerIcon.addEventListener('click', function(){
+            mobileNav.classList.toggle('active');
+            burgerIcon.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>

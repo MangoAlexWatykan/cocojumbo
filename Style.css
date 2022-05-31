@@ -1,0 +1,396 @@
+html{
+    overflow-x: hidden;
+}
+
+body
+{
+    margin: 0;
+    font-size:20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.all
+{
+    background-color: rgb(255, 255, 255);
+}
+.header
+{
+    width:  100%;
+    height: 10vh;
+    background-color: rgb(22, 22, 22);
+    color:white;
+    margin-top: 0;
+    text-shadow: 0 0 8px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+Nav
+{
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size:20px ;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #ffff, #ffff, rgb(206, 244, 255));
+}
+.main
+{
+    font-size: 200%;
+    border-top:solid black 1px ;
+    width: 100%;
+    height: 75vh;
+    background-image: url("Img/tlo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(22, 22, 22);
+    text-shadow: 0px 0px 4px  rgb(0, 0, 0);
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main1
+{
+    font-size: 20px;
+    border-top:solid black 1px ;
+    width: 100%;
+    min-height: 75vh;
+    
+    text-align: center;
+}
+.ronaldo
+{
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);
+    box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 3px;
+    padding: 1%;
+}
+.ronaldo:hover
+{
+    -webkit-box-shadow: 0px 0px 33px 10px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 33px 10px rgb(0, 0, 0);
+    box-shadow: 0px 0px 33px 10px rgb(0, 0, 0);; 
+    transition: .3s; 
+}
+
+.footer
+{
+    background-color:black ;
+    width: 100%;
+    min-height: 5vh;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+table tr td
+{
+    border: #000000 1px solid;
+    width: 60vw;
+}
+tr td
+{
+    padding:50px 
+    
+}
+.tablekont
+{
+    text-align: left;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 20px;
+    margin-left:500px ;
+    margin-right:500px ;  
+}
+.tablekon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resimg
+{
+    border-radius: 15%;
+    border: 1px solid black;
+    margin:20px;
+    -webkit-box-shadow: 0px 0px 33px 3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 33px 3px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 33px 3px rgba(66, 68, 90, 1);
+}
+.resimg:hover
+{
+    -webkit-box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);
+    box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);
+    transition: 0.2s;
+}
+
+
+.h3
+{
+    text-align: center;
+}
+.h5
+{
+    color: gray;
+}
+.onastxt
+{
+    text-align: center;
+    margin: 40px;
+    margin-left:500px ;
+    margin-right:500px ;
+}
+.onasimg
+{
+    border-radius: 15%;
+    -webkit-box-shadow: 0px 0px 33px 3px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 33px 3px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 33px 3px rgba(66, 68, 90, 1);
+}
+.onasimg:hover
+{
+    -webkit-box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);
+    box-shadow: 0px 0px 33px 3px rgb(0, 0, 0);
+    transition: 0.2s;   
+}
+
+
+
+
+
+/*Css menu*/
+.logo
+{
+    margin-top: -30px;
+}
+ul
+{
+    list-style-type: none;
+    display: flex;
+    width:55%;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding:2px;
+}
+.first
+{
+    text-align: center;
+}
+a::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:0%;
+    background-color: black;
+    height:.15em;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+}
+a:hover::after
+{
+    width:100%
+}
+a:hover
+{
+    text-shadow: -1px 1px 3px rgb(0, 0, 0);
+}
+.line
+{
+    width: 3em;
+    height: .4em;
+    background-color: black;
+    margin: .6em;
+    border-radius: 15%; 
+    transition: .3s ease-in-out;
+}
+.burger
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+
+}
+
+/*MENU resp*/
+@media only screen and (max-width: 1700px)
+{
+    Nav{
+       display: flex;
+       align-items: right;
+       justify-content: right;
+    }
+    
+}
+@media only screen and (max-width: 1700px)
+{
+    .burger{
+        display: block;
+        transition: .2s ease-in-out;
+        transform: rotate(-90deg);
+    }
+    ul
+    {
+        position: absolute;
+        right:0;
+        top:18vh;
+        background-color: rgb(24, 24, 24);
+        height: 75vh;
+        flex-direction: column;
+        text-align: center;
+        transform: translate(100%);
+        transition: .3s ;
+     }
+    ul.active{
+        transform: translate(0%);
+        transition: .3s;
+    }
+    .burger.active
+    {
+        transform: rotate(-180deg);
+        transition: 0.5s;
+    }
+    a:hover::after
+    {
+        background-color: white;
+    }
+    a
+    {
+        color: white;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+    }
+    li 
+    {
+        margin:2%;
+    }
+}
+@media only screen and (max-width: 800px)
+{
+    ul 
+    {
+        width: 100%;
+    }
+}
+
+ /*napis strona główna*/
+@media only screen and (max-width: 840px)
+{
+.ronaldo, .ronaldo1
+{
+    font-size:30px
+}
+}
+@media only screen and (max-width: 700px)
+{
+.ronaldo, .ronaldo1
+{
+    font-size:25px
+}
+}
+@media only screen and (max-width: 550px)
+{
+.ronaldo, .ronaldo1
+{
+    font-size:20px
+}
+}
+@media only screen and (max-width: 420px)
+{
+.ronaldo, .ronaldo1
+{
+    font-size:15px
+}
+}
+@media only screen and (max-width: 315px)
+{
+.ronaldo, .ronaldo1
+{
+    font-size:10px;
+}
+}
+
+
+@media only screen and (max-width: 1440px)
+{
+.onastxt
+{
+    margin-left:10%;
+    margin-right:10%;
+
+}
+}
+
+@media only screen and (max-width: 645px)
+{
+.onastxt
+{
+    margin-left:2%;
+    margin-right:2%;
+
+}
+}
+@media only screen and (max-width: 570px)
+{
+.onasimg, .resimg
+{
+    width: 80%;
+    height: 20%;
+}
+}
+
+
+
+@media only screen and (max-width: 540px)
+{
+tr td 
+{
+    padding: 20px
+}
+}
+@media only screen and (max-width: 440px)
+{
+tr td 
+{
+    padding: 10px
+}
+}
+@media only screen and (max-width: 390px)
+{
+tr td 
+{
+    padding: 2px
+}
+}
+@media only screen and (max-width: 350px)
+{
+tr td 
+{
+    padding: 2px;
+    font-size:15px;
+}
+}

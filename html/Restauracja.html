@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Ośrodek wypoczynkowy Gustaw</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="all">
+        <div class="header">
+                <h3>HOTEL GUSTAW</h3>
+        </div>
+        <Nav>
+            <ul class="active">
+                <li><a href="Onas.html">O NAS</a></li>
+                <li><a href="Restauracja.html">RESTAURACJA</a></li>
+                <li><a href="../Index.html">STRONA GŁÓWNA</a></li>
+                <li><a href="Pokoje.html">POKOJE</a></li>
+                <li><a href="Cennik.html">CENNIK</a></li>
+                <li><a href="Kontakt.html">KONTAKT</a></li>
+            </ul>
+
+            <button class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </button>
+
+        </Nav>   
+        <div class="main1">
+            <h3 class="h3">NASZA RESTAURACJA</h3>
+            <p class="h5">JAKOŚĆ W PARZE Z DOBRYM SMAKIEM!</p>
+            <p class="onastxt">
+                Niewątpliwie, jednym z największych atutów naszego Hotelu jest 
+                Restauracja Gustaw. Szef przygotowuje dla naszych Gości specjały kuchni polskiej i włoskiej. Wyselekcjonowane składniki oraz pasja i doświadczenie naszego 
+                Mistrza Kuchni są gwarancją najwyższej jakości serwowanych dań. Po trudach podróży bądź po dniu pełnym wrażeń Goście mogą zrelaksować się w naszym barze. 
+                Tam najlepsi barmani prezentują swoje możliwości przygotowując autorskie drinki oraz proponując trunki z całego świata.
+                <br>
+                <br>
+                <br>
+                <br>
+                <img src="../Img/res1.jpg" alt="3" width="500px" height="300px" class="resimg">
+                <img src="../Img/res2.png" alt="3" width="500px" height="300px" class="resimg">
+
+            </p>
+        </div>
+        <div class="footer">
+            <br>
+            autor: Alex Morawski 1P1
+            <br>
+        </div>
+    </div>
+    <script>
+        const mobileNav = document.querySelector('ul');
+        const burgerIcon = document.querySelector('.burger');
+
+        burgerIcon.addEventListener('click', function(){
+            mobileNav.classList.toggle('active');
+            burgerIcon.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
